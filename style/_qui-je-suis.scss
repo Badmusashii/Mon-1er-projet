@@ -1,0 +1,27 @@
+.qui-je-suis {
+    border: 3px solid $color3;
+    background: $color2;
+    color: $color4;
+    width: 20%;
+    text-align: center;
+    border-radius: 20px;
+    transition: 2s;
+    
+}
+
+.qui-je-suis-clicked {
+    position: absolute;
+    left: 0;
+    bottom: 10%;
+    border: 1px solid red;
+    width: 50%;
+    height: 65%;
+    text-align: center;
+    background: url(../img/qui-je-suis/lion.jpg) center/cover;
+    z-index: 2;
+
+    p {
+        text-transform: capitalize;
+        color: yellow;
+    }
+}

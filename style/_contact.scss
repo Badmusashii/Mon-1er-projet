@@ -1,0 +1,23 @@
+.contact {
+    position: absolute;
+    border: 3px 0 0 3px solid $color3;
+    background: $color2;
+    color: $color4;
+    bottom: -0.2%;
+    right: -1%;
+    width: 20%;
+    text-align: center;
+    border-radius: 20px 0 0 0;
+    transition: 2s;
+}
+
+.contact-clicked {
+    position: absolute;
+    right: -1%;
+    bottom: -0.2%;
+    border: 1px solid red;
+    width: 50%;
+    height: 65%;
+    text-align: center;
+    z-index: 2;
+}
